@@ -1,0 +1,95 @@
+.shorten-container{
+    background-color: #f0f1f6;
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.shorten-box{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 150px;
+    margin-top: -75px;
+    border-radius: 8px;
+    border: 1px transparent;
+    background-image: url('../../images/bg-shorten-desktop.svg');
+    background-color: #3a3053;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.shorten-box form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input-txt{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.input-txt input[type="text"]{
+    height: 70px;
+    margin-top: 40px;
+    width: 70%;
+}
+
+.url-block{
+    margin-top: 20px;
+    width: 90%;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px transparent #fff;
+    height: 70px;
+}
+
+.url-text{
+    width: 60%;
+    align-self: center;
+}
+
+.url-text h3{
+    font-size: 22px;
+    padding-left: 20px;
+    color: #77767c;
+    font-weight: 500;
+}
+
+.action-col{
+    margin-right: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    align-self: center;
+    justify-content: flex-end;
+}
+
+.action-col h3{
+    align-self: center;
+    color: #78d3d1;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.action-col button{
+    cursor: pointer;
+    margin: 10px;
+    font-size: 18px;
+    height: 40px;
+    color: #fff;
+    background-color: #29d2ce;
+    padding: 0px 20px;
+    border-radius: 8px;
+    border: 1px transparent;
+}   

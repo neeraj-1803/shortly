@@ -1,0 +1,36 @@
+.boost{
+    padding: 50px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../images/bg-shorten-desktop.svg');
+    background-color: #3a3053;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.boost h2{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+.boost button{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-color: #9be2e3;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 25px;
+    padding: 10px 30px;
+    border: 1px transparent;
+}
+
+.boost button:hover{
+    transform: scale(0.95);
+}
