@@ -24,21 +24,69 @@
 }
 
 .shorten-box form{
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .input-txt{
     display: flex;
     flex-direction: column;
+    position: relative;
     width: 70%;
 }
 
 .input-txt input[type="text"]{
-    height: 70px;
-    margin-top: 40px;
-    width: 70%;
+    position: absolute;
+    width: 100%;
+    top: -20px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.input-txt input[type="text"]:focus{
+    outline: none;
+}
+
+.normalBorder{
+    border: 2px transparent;
+}
+
+.errorBorder{
+    border: 2px transparent#b46774;
+}
+
+.input-txt label{
+    position: absolute;
+    top: 35px;
+    padding-top: 5px;
+    color: #b46774;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.hidden{
+    display: none;
+}
+
+#submitbtn{
+    cursor: pointer;
+    margin-top: 12px;
+    height: 50px;
+    padding: 0px 30px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #9be3e2;
+    border-radius: 8px;
+    color: #fff;
+    border: 1px transparent;
+    margin-left: 20px;
+    align-self: center;
 }
 
 .url-block{
@@ -93,3 +141,9 @@
     border-radius: 8px;
     border: 1px transparent;
 }   
+
+.blackCopiedText{
+    content: 'Copied!';
+    color: #fff;
+    background-color:#77767c;
+}
